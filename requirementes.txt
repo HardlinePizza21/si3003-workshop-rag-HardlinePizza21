@@ -1,0 +1,7 @@
+gradio
+python-dotenv
+langchain-nvidia-ai-endpoints
+langchain-core
+langchain-text-splitters
+qdrant-client
+langchain-qdrant
