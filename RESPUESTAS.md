@@ -45,6 +45,11 @@ _Mi respuesta / análisis:_ *vectorstore.add_documents(...)* en insercion y *ret
 _Evidencia:_ …
 
 _Mi respuesta / análisis:_
+1. Esta busqueda ahora da un error porque si la base de datos vectorial da el indice _3_, y el proceso de busqueda termina llamando a _self.documents_ en esa posicion estas llamando un indice invalido y arroja error.
+
+2. Si hay un error silencios es porque se retorno -1 debido a que no se pudo llenar los k candidatos, y por lo tanto el problema esta en el tercer indice que al extraer de _self.document_ seria igual al ultimo document insertado. 
+
+3. La base de datos vectorial Qdrant se encarga de manjer las mutaciones de forma nativa, mientras que FAISS no tiene las operaciones que hacen falta para esto.
 
 
 ## T5 · El costo de la fuerza bruta
