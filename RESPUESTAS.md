@@ -7,23 +7,37 @@ Escribe aquí tus respuestas con tus propias palabras. Pega tablas, resultados y
 
 ## T1 · Cuántos nodos viven en cada capa
 
-_Evidencia:_ …
+_Evidencia:_ 
 
-_Mi respuesta / análisis:_
+<img src="./evidencias/t1-handmade-calculations.jpg" alt="handmadecalculations" width="400">
+<img src="./evidencias//simulationvstheory.png" alt="handmadecalculations" width="2000">
+
+_Mi respuesta / análisis:_ Porque la complejidad algoritmica depende de los nodos visitados entonces entre menos nodos se visiten menos tiempo demora. Asi las capas superiores funcionan como ruta rapida hacia zonas inferiores.
 
 
 ## T2 · ef, k y el tamaño de la cola
 
 _Evidencia:_ …
 
-_Mi respuesta / análisis:_
+_Mi respuesta / análisis:_ 
+1. Cuando la cantidad de candidatos ef es menor que los candidatos solicitados k, simplemente no hay k candidatos que elegir. 
+2. Empieza con _ef = 2* k_ y si el _recall_ es insuficiente subelo.
+3. Puedes cambiar el _ef_ utilizado para el esfuerzo en la busqueda y en teoria y si la implementacion lo permite puedes cambiar *ef_construction* lo cual modificaria la calidad de los enlaces o el _recall_. Pero esto no es apropiado e introduce ambiguedad en la medicion del _recall_ entonces en definitiva deberiamos cambiar _ef_ y no *ef_construction*.
 
 
 ## T3 · Inserción frente a búsqueda
 
-_Evidencia:_ …
+_Evidencia:_ 
 
-_Mi respuesta / análisis:_
+
+| Comparacion | Inserción | Búsqueda |
+| --- | --- | --- | 
+|¿Se sortea la capa? | Si, basado en una distribucion exponencial | No, cada nodo ya tiene capa asignada |
+|Valor de ef en las capas altas | _ef = 1_ mientras no se haya llegado a la capa maxima del nodo insertado, _ef = ef_construction_ despues | Excepto en la capa 0 _ef = 1_ segun la guia, en la capa 0 se recomienda _ef=2*k_ |
+|Parámetro de la fase principal | _mL≈ 1 / ln(16) =controla la distribucion_, *ef_construction=candidatos del greedy en construccion*, _M=mejore candidatos_ | _ef=candidatos de la busqueda_, _k=mejores candidatos seleccionados_, _query_vector_ |
+|¿Modifica el índice? | Si | No |
+
+_Mi respuesta / análisis:_ *vectorstore.add_documents(...)* en insercion y *retriever.invoke(...)* en busqueda 
 
 
 ## T4 · El invariante de FAISSVectorStore
