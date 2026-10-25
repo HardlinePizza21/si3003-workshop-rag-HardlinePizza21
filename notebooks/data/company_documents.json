@@ -1,37 +1,73 @@
 [
   {
-    "id": "product_001",
-    "title": "CloudSync Pro — Plan Enterprise",
-    "content": "CloudSync Pro Enterprise ofrece almacenamiento ilimitado, colaboración en tiempo real para hasta 500 usuarios y soporte prioritario 24/7. Precio: $49/mes por usuario con compromiso anual. Incluye: control de versiones avanzado, registros de auditoría, integración SSO, y SLA de 99.9% de disponibilidad. El plan mensual sin compromiso está disponible a $59/mes por usuario.",
+    "id": "product_002",
+    "title": "CloudSync Pro — Plan Básico",
+    "content": "El plan Básico ofrece 100 GB de almacenamiento por usuario y herramientas para compartir archivos. Incluye soporte por correo electrónico durante días hábiles y sincronización entre dispositivos. Precio: $9/mes por usuario, con facturación mensual. El espacio adicional puede contratarse por separado.",
     "metadata": {
       "department": "product",
       "type": "pricing"
     }
   },
   {
-    "id": "policy_001",
-    "title": "Política de Trabajo Remoto 2024",
-    "content": "Vigente desde enero 2024. Los empleados pueden trabajar de forma remota hasta 3 días por semana. El trabajo remoto requiere aprobación del jefe directo. Estipendio de equipos: $500 anuales para adecuación de oficina en casa. Las videollamadas son obligatorias en reuniones de equipo. Horario base de colaboración: 10:00–15:00 hora local del empleado.",
+    "id": "policy_002",
+    "title": "Política de Vacaciones y Ausencias",
+    "content": "Los empleados de tiempo completo disponen de 20 días laborables de vacaciones por año. Las solicitudes deben presentarse al jefe directo con al menos 10 días de anticipación. Las ausencias por enfermedad deben notificarse al equipo antes del inicio de la jornada laboral. Los días no utilizados se gestionan conforme a la legislación local.",
     "metadata": {
       "department": "hr",
       "type": "policy"
     }
   },
   {
-    "id": "process_001",
-    "title": "Proceso de Reembolso a Clientes",
-    "content": "Paso 1: El cliente envía solicitud de reembolso por el portal de soporte. Paso 2: El agente revisa la solicitud en máximo 24 horas. Paso 3: Montos menores a $100 se aprueban automáticamente. Paso 4: Montos mayores a $100 requieren aprobación del supervisor. Paso 5: El reembolso se procesa en 3–5 días hábiles al método de pago original. Reembolso completo disponible dentro de los 30 días posteriores a la compra.",
+    "id": "process_002",
+    "title": "Proceso de Alta de Clientes",
+    "content": "Paso 1: El cliente completa el formulario de registro. Paso 2: El equipo de ventas verifica los datos de contacto y el plan seleccionado. Paso 3: Se envía un correo de confirmación con instrucciones para configurar la cuenta. Paso 4: El cliente activa la autenticación multifactor. Paso 5: El equipo de soporte realiza un seguimiento dentro de los primeros 5 días hábiles.",
     "metadata": {
-      "department": "support",
+      "department": "sales",
       "type": "process"
     }
   },
   {
-    "id": "guide_001",
-    "title": "Checklist de Onboarding para Nuevos Empleados",
-    "content": "Día 1: Configuración de TI y acceso a sistemas. Día 2: Orientación departamental con el equipo. Semana 1: Completar módulos de entrenamiento obligatorios (seguridad, cumplimiento, cultura). Semana 2: Acompañar a compañeros y revisar documentación de proyectos activos. Mes 1: Evaluación de período de prueba y definición de objetivos a 90 días.",
+    "id": "guide_002",
+    "title": "Guía para Restablecer la Contraseña",
+    "content": "En la pantalla de inicio de sesión, selecciona «Olvidé mi contraseña» e introduce el correo asociado a la cuenta. Usa el enlace de restablecimiento recibido, que vence después de 30 minutos. Crea una contraseña única de al menos 12 caracteres. Si no recibes el mensaje, revisa la carpeta de correo no deseado o contacta a soporte.",
     "metadata": {
-      "department": "hr",
+      "department": "support",
+      "type": "guide"
+    }
+  },
+  {
+    "id": "policy_003",
+    "title": "Política de Seguridad de la Información",
+    "content": "Los empleados deben usar autenticación multifactor para acceder a los sistemas corporativos. No se deben compartir credenciales ni almacenar información confidencial en dispositivos personales sin autorización. Los incidentes de seguridad deben reportarse al equipo de TI tan pronto como se detecten. El acceso a datos se limita a las necesidades del puesto.",
+    "metadata": {
+      "department": "it",
+      "type": "policy"
+    }
+  },
+  {
+    "id": "product_003",
+    "title": "Servicio de Copias de Seguridad",
+    "content": "El servicio de copias de seguridad conserva versiones diarias de los archivos durante 30 días. La restauración de archivos individuales está disponible desde el panel de administración. Las copias se cifran durante la transferencia y el almacenamiento. La capacidad incluida depende del plan contratado.",
+    "metadata": {
+      "department": "product",
+      "type": "feature"
+    }
+  },
+  {
+    "id": "process_003",
+    "title": "Proceso de Reporte de Incidentes de TI",
+    "content": "Paso 1: Registra el incidente en el portal interno de TI e incluye los sistemas afectados. Paso 2: Indica cuándo comenzó y adjunta una descripción del error. Paso 3: El equipo de TI clasifica la prioridad y confirma la recepción. Paso 4: Sigue las instrucciones del equipo y evita intentar reparaciones no autorizadas. Paso 5: Recibirás una actualización cuando el servicio esté restablecido.",
+    "metadata": {
+      "department": "it",
+      "type": "process"
+    }
+  },
+  {
+    "id": "guide_003",
+    "title": "Guía de Preparación para Reuniones",
+    "content": "Antes de la reunión, define el objetivo y comparte la agenda con los participantes. Comprueba que los documentos y enlaces necesarios tengan permisos de acceso. Durante la sesión, registra las decisiones y asigna responsables a las tareas. Después, comparte las notas y las fechas de seguimiento con el equipo.",
+    "metadata": {
+      "department": "operations",
       "type": "guide"
     }
   }
